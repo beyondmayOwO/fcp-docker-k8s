@@ -16,6 +16,9 @@
 
     docker exec -it voltest bash
 
+- Smaller images like slim/alpine use 'sh' instead of 'bash'
+- alpine use 'apk (Alpine Package Keeper)' insead of apt
+  
 ## Let’s create a file in the volume using Nano
 
     apt-get update
